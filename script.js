@@ -223,15 +223,13 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `Hi,
+    const fullMessage = `Hi Zee,
 
 Happy Birthday!
 
-Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
+May your special day be filled with joy, laughter and unforgettable moments with the people who matter most (me). As you step into new chapter of your life, i wish you nothing but the best.
 
-Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
-
-I love you so much! 💕`;
+May the coming year bring you countless achievements, personal growth and meaningful experiences. Keep striving, keep shining and may happiness always follow you in everything you do 💕`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -266,7 +264,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `Hi Zee,<br><br>Happy Birthday!<br><br>May your special day be filled with joy, laughter and unforgettable moments with the people who matter most (me). As you step into new chapter of your life, i wish you nothing but the best.<br><br>May the coming year bring you countless achievements, personal growth and meaningful experiences. Keep striving, keep shining and may happiness always follow you in everything you do 💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
