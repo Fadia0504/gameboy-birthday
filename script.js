@@ -320,36 +320,36 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: 'Our First Date 💕',
-            image: './images/photo1.jpg'
+            text: 'u are so pretty 💕',
+            image: './images/Zee 1.jpg'
         },
         {
-            text: 'Birthday Moment 🎂',
-            image: './images/photo2.jpg'
+            text: 'and gorgeous 😍',
+            image: './images/Zee 2.jpg'
         },
         {
-            text: 'Adventure Time 🌟',
-            image: './images/photo3.jpg'
+            text: 'and cutie 🌟',
+            image: './images/Zee 3.jpg'
         },
         {
-            text: 'Cozy Together ❤️',
-            image: './images/photo4.jpg'
+            text: 'and adorable ❤️',
+            image: './images/Zee 4.jpg'
         },
         {
-            text: 'Sweet Memories 🥰',
-            image: './images/photo5.jpg'
+            text: 'and beautifull 🥰',
+            image: './images/Zee 5.jpg'
         },
         {
-            text: 'Laugh Together 😂',
-            image: './images/photo6.jpg'
+            text: 'and charming 💖',
+            image: './images/Zee 6.jpg'
         },
         {
-            text: 'Perfect Day ☀️',
-            image: './images/photo7.jpg'
+            text: 'umm..ilysm 😳',
+            image: './images/Rawrr.jpg'
         },
         {
-            text: 'Love Forever 💖',
-            image: './images/photo8.jpg'
+            text: 'KASIH FOTO YG BANYAK WOI 😡',
+            image: './images/Marah.jpg'
         }
     ];
     
@@ -376,7 +376,7 @@ function startPhotoShow() {
             <div class="photo-frames-container">
                 ${framesHTML}
             </div>
-            <div class="photo-strip-footer">💕 BIRTHDAY MEMORIES 💕</div>
+            <div class="photo-strip-footer">💕 BIRTHDAY FINESHYT 💕</div>
         </div>
         <div class="scroll-indicator">⬇ Scroll Down ⬇</div>
     `;
@@ -610,19 +610,19 @@ function loadSpotifyPlaylist(playlistNumber) {
             // Ganti dengan playlist pertama kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/37i9dQZF1DWYtQSOiZF6hj?si=0b945793c2934ba1',
             name: 'Birthday Special Mix',
-            description: 'Lagu-lagu spesial untuk hari istimewa kamu ✨'
+            description: 'Special songs for your special day ✨'
         },
         2: {
             // Ganti dengan playlist kedua kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
-            name: 'Love Songs Collection',
-            description: 'Koleksi lagu cinta terbaik untuk kita ❤️'
+            embedUrl: 'https://open.spotify.com/embed/playlist/7KWsFZGi27TQHlRjYJCObd?si=-6Dw5GDwQHW0ay-Eq__J2A&pi=PfTEoAA7TQqvM',
+            name: 'For you Zee',
+            description: 'This playlist describes how pretty youu are ❤️'
         },
         3: {
             // Ganti dengan playlist ketiga kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/4dlQ4JHE6abxv38aae2HL1?si=95730613199e4dad',
             name: 'Happy Memories',
-            description: 'Lagu-lagu yang mengingatkan kenangan indah 🌟'
+            description: 'Happy atmosphere 🌟'
         }
     };
     
